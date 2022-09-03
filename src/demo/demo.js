@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable array-callback-return */
 import React, { useEffect, useState } from 'react';
 import './demo.css';
 
@@ -38,7 +40,6 @@ const Demo = () => {
 			finalArray.push(updatedObj);
 		});
 		setData(finalArray);
-		console.log(finalArray, 'FINAL ARRAY');
 	};
 
 	const setValues = (id, data) => {
